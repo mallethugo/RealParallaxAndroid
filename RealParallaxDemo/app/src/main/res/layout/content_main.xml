@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hmallet.realparallaxdemo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.github.hmallet.realparallaxandroid.RealHorizontalScrollView
+        android:id="@+id/main_horizontal_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:src="@mipmap/background"/>
+
+    <com.github.hmallet.realparallaxandroid.RealViewPager
+        android:id="@+id/main_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:parallaxVelocity="0.2"/>
+
+</RelativeLayout>
