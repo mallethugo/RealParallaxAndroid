@@ -39,9 +39,11 @@ app:parallaxVelocity="0.2"/>
 
 At your project `build.gradle` file:
 
+```groovy
 dependencies {
     compile 'com.github.hmallet:realparallaxandroid:1.0.1'
 }
+```
 
 Done!
 
