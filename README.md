@@ -8,7 +8,7 @@ Support Android 4.0+
 
 ## Example
 
-![RealParallaxAndroid](https://github.com/mallethugo/RealParallaxAndroid/blob/master/demo.gif)
+![RealParallaxAndroid](https://github.com/mallethugo/RealParallaxAndroid/blob/master/Demo.gif)
 
 # Usage
 
