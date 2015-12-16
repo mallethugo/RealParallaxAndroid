@@ -3,9 +3,8 @@
 ===
 
 RealParallaxAndroid is a View Pager with a Real Parallax Android Effect
-Support Android 4.0+
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-RealParallaxAndroid-green.svg?style=true)](https://android-arsenal.com/details/1/2918)
+[![Sample Screenshot](https://img.shields.io/badge/Android%20Arsenal-RealParallaxAndroid-green.svg?style=true)](https://android-arsenal.com/details/1/2918)
 
 ![RealParallaxAndroid](https://github.com/mallethugo/RealParallaxAndroid/blob/master/Demo.gif)
 
