@@ -17,6 +17,10 @@ proguard/
 *.ipr
 .idea
 
+# files
+*.iml
+.idea/
+
 # Gradle files
 .gradle/
 build/
