@@ -39,7 +39,7 @@ At your project `build.gradle` file:
 
 ```groovy
 dependencies {
-    compile 'com.github.hmallet:realparallaxandroid:1.0.1'
+    compile 'com.github.hmallet:realparallaxandroid:1.0.2'
 }
 ```
 

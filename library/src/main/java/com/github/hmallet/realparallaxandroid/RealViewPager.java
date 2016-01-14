@@ -36,15 +36,11 @@ public class RealViewPager extends ViewPager {
 
     public void configureWithMyListener(RealHorizontalScrollView realHorizontalScrollView) {
         this.mRealHorizontalScrollView = realHorizontalScrollView;
-        mRealHorizontalScrollViewWidth = this.mRealHorizontalScrollView.getWidth();
+        this.mRealHorizontalScrollViewWidth = this.mRealHorizontalScrollView.getWidth();
     }
 
-    public void setRealHorizontalScrollViewPosition(int scrollX, int widthScreenSize, int position) {
-        int realScrollX = scrollX;
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-            realScrollX = scrollX + (widthScreenSize * position);
-        }
-        mRealHorizontalScrollView.scrollTo(Math.round(realScrollX * mParallaxVelocity), 0);
+    public void setRealHorizontalScrollViewPosition(int scrollX, int position) {
+        this.mRealHorizontalScrollView.scrollTo(Math.round((scrollX * mParallaxVelocity) + (position * mParallaxVelocity * this.mRealHorizontalScrollView.getWidth())), 0);
     }
 
     /**
@@ -54,11 +50,7 @@ public class RealViewPager extends ViewPager {
      *  @param position current item position
      */
     public void manageScrollWithMyListeners(int scrollX, int position) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            setRealHorizontalScrollViewPosition(scrollX, mRealHorizontalScrollViewWidth, 0);
-        } else {
-            setRealHorizontalScrollViewPosition(scrollX, mRealHorizontalScrollViewWidth, position);
-        }
+        setRealHorizontalScrollViewPosition(scrollX, position);
     }
 
     private void overrideScrollListener() {
@@ -66,14 +58,14 @@ public class RealViewPager extends ViewPager {
             this.setOnScrollChangeListener(new OnScrollChangeListener() {
                 @Override
                 public void onScrollChange(View v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
-                    setRealHorizontalScrollViewPosition(scrollX, mRealHorizontalScrollViewWidth, 0);
+                    setRealHorizontalScrollViewPosition(scrollX, 0);
                 }
             });
         } else {
             this.setOnPageChangeListener(new OnPageChangeListener() {
                 @Override
                 public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                    setRealHorizontalScrollViewPosition(positionOffsetPixels, mRealHorizontalScrollViewWidth, position);
+                    setRealHorizontalScrollViewPosition(positionOffsetPixels, position);
                 }
 
                 @Override

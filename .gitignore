@@ -11,6 +11,11 @@
 # Generated files
 bin/
 gen/
+proguard/
+*.iws
+*.iml
+*.ipr
+.idea
 
 # Gradle files
 .gradle/
