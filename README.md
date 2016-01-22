@@ -1,10 +1,10 @@
-![RealParallaxAndroid](https://github.com/mallethugo/RealParallaxAndroid/blob/master/realparallaxandroid.png) <a href="http://www.methodscount.com/?lib=com.github.hmallet%3Arealparallaxandroid%3A1.0.2"><img src="https://img.shields.io/badge/Methods count-core: 39 | deps: 14253-e91e63.svg"></img></a>
+![RealParallaxAndroid](https://github.com/mallethugo/RealParallaxAndroid/blob/master/realparallaxandroid.png)
 
 ===
 
 RealParallaxAndroid is a View Pager with a Real Parallax Android Effect
 
-[![Sample Screenshot](https://img.shields.io/badge/Android%20Arsenal-RealParallaxAndroid-green.svg?style=true)](https://android-arsenal.com/details/1/2918)
+[![Sample Screenshot](https://img.shields.io/badge/Android%20Arsenal-RealParallaxAndroid-green.svg?style=true)](https://android-arsenal.com/details/1/2918) <a href="http://www.methodscount.com/?lib=com.github.hmallet%3Arealparallaxandroid%3A1.0.2"><img src="https://img.shields.io/badge/Methods count-core: 39 | deps: 14253-e91e63.svg"></img></a>
 
 ![RealParallaxAndroid](https://github.com/mallethugo/RealParallaxAndroid/blob/master/Demo.gif)
 
