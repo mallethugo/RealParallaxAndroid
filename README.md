@@ -1,4 +1,4 @@
-![RealParallaxAndroid](https://github.com/mallethugo/RealParallaxAndroid/blob/master/realparallaxandroid.png)
+![RealParallaxAndroid](https://github.com/mallethugo/RealParallaxAndroid/blob/master/realparallaxandroid.png) <a href="http://www.methodscount.com/?lib=com.github.hmallet%3Arealparallaxandroid%3A1.0.2"><img src="https://img.shields.io/badge/Methods count-core: 39 | deps: 14253-e91e63.svg"></img></a>
 
 ===
 
